@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Ta kontakt - ";
+}
+<div id="contact">
+    <div class="threeCellMain">
+    </div>
+    <div id="contactSelected">
+        <div id="call">
+            <h2>Ring oss!</h2>
+            <p>Har du noe spørsmål kan du ringe! Ingen spørsmål er for dumme til å spørre. Vi har pr.dd. åpen telefon fra 08:00 til 22:00</p>
+            <p>Som oftest er vi å treffe på :</p>
+            <p><img width="40" src="~/Content/Pictures/blue_phone.png" />41221200 - Hovednummer, betjenes av Bjørn Kristiansen</p>
+            <p><img width="40" src="~/Content/Pictures/green_phone.png" />92082685 - Alternativt nummer, betjenes av Nathalie Knutsen</p>
+            <a class="replaceMe" href="mailto:bks"><p><img src="~/Content/Pictures/Email-Internet-PNG.png" style="width:40px" /> Send e-post</a></p>  
+            <script>
+                var part1 = "support";
+                var part2 = '\@@';
+                var part3 = "borgendata.no";
+                var all = "mailto:" + part1 + part2 + part3;
+
+                $(".replaceMe").prop("href", all);
+                          
+            </script>
+                     
+        </div>
+        <div id="location">
+            <h2>Lokasjon</h2>
+            <p>
+                Borgen Data er er PC verksted som ligger på Borgenhaugen i Sarpsborg. <br/>
+                Om du skal levere en PC eller ta kontakt av en grunn, er det greit å ha en forståelse av hvor driften holdes.
+            </p>
+            <h3>Adresse</h3>    
+            <ul>
+                <li>Stenholts vei 16B</li>
+                <li>1738 Borgenhaugen</li>
+                <li>Sarpsborg</li>
+            </ul>
+
+            <div style="width: 50%;float:left;">
+                <h3>Kart</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1441.773018725803!2d11.1501571498766!3d59.2665674146274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464405e0c443c5fb%3A0xa0f6e2e9d20ac81d!2sStenholts+vei+16B%2C+1738+Borgenhaugen!5e0!3m2!1sno!2sno!4v1441221297045" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div style="width: 50%;float:right;">
+                <h3>Veibeskrivelse fra Sarpsborg Bussstasjon</h3>
+
+                <ol>
+                    <li>
+                        Ta Kirkegata til St. Marie gate/Rv109
+                        3 min (1,1 km)
+                    </li>
+                    <li>
+                        Kjør mot nordvest på Korsgata
+                        33 m
+                    </li>
+                    <li>
+                        I rundkjøringen: Ta 4. avkjøring og hold deg på Korsgata
+                        Kjør gjennom 1 rundkjøring
+                        240 m
+                    </li>
+                    <li>
+                        Fortsett på Glengsgata
+                        180 m
+                    </li>
+                    <li>
+                        Sving til høyre og inn på Kirkegata
+                        650 m
+                    <li>
+                        Ta Struerveien/Rv118 og Rv111 til Parkveien
+                        5 min (2,5 km)
+                    </li>
+                    <li>
+                        Kirkegata svinger litt mot venstre og går over i St. Marie gate/Rv109
+                        180 m
+                    </li>
+                    <li>
+                        Fortsett på Struerveien/Rv118
+                        850 m
+                    </li>
+                    <li>
+                        I rundkjøringen fortsetter du rett frem til Hafslunds Gate/Rv111
+                        Fortsett å følge Rv111
+                        Kjør gjennom 1 rundkjøring
+                        1,2 km
+                    </li>
+                    <li>
+                        I rundkjøringen: Ta 1. avkjøring ut på Rv118
+                        250 m
+                    </li>
+                    <li>
+                        Kjør til Stenholts vei
+                        54 s (350 m)
+                    <li>
+                        Sving til høyre og inn på Parkveien
+                        86 m
+                    </li>
+                    <li>
+                        Sving til venstre og inn på Stenholts vei<br />
+                        Stedet du skal til er på venstre hånd
+                    </li>
+                </ol>
+
+            </div>
+
+        </div>
+        <div id="mail"></div>
+
+    </div>
+</div>
