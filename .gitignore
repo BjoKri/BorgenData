@@ -1,0 +1,13 @@
+bin/
+obj/
+packages/
+.vs/
+node_modules/
+.env.deploy
+site/dbcon.php
+*.user
+*.suo
+*.cache
+*.pdb
+*.dll
+*.nupkg

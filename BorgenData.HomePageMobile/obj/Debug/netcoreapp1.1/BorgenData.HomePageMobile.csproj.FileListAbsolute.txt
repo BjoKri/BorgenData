@@ -1,9 +1,0 @@
-C:\code\BorgenData\BorgenData.HomePageMobile\bin\Debug\netcoreapp1.1\BorgenData.HomePageMobile.deps.json
-C:\code\BorgenData\BorgenData.HomePageMobile\bin\Debug\netcoreapp1.1\BorgenData.HomePageMobile.runtimeconfig.json
-C:\code\BorgenData\BorgenData.HomePageMobile\bin\Debug\netcoreapp1.1\BorgenData.HomePageMobile.runtimeconfig.dev.json
-C:\code\BorgenData\BorgenData.HomePageMobile\bin\Debug\netcoreapp1.1\BorgenData.HomePageMobile.dll
-C:\code\BorgenData\BorgenData.HomePageMobile\bin\Debug\netcoreapp1.1\BorgenData.HomePageMobile.pdb
-C:\code\BorgenData\BorgenData.HomePageMobile\obj\Debug\netcoreapp1.1\BorgenData.HomePageMobile.csprojResolveAssemblyReference.cache
-C:\code\BorgenData\BorgenData.HomePageMobile\obj\Debug\netcoreapp1.1\BorgenData.HomePageMobile.AssemblyInfo.cs
-C:\code\BorgenData\BorgenData.HomePageMobile\obj\Debug\netcoreapp1.1\BorgenData.HomePageMobile.dll
-C:\code\BorgenData\BorgenData.HomePageMobile\obj\Debug\netcoreapp1.1\BorgenData.HomePageMobile.pdb

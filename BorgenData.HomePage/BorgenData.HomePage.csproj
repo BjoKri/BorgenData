@@ -124,66 +124,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Css\bjqs.css" />
-    <Content Include="Content\Css\bootstrap.css" />
-    <Content Include="Content\Css\bootstrap.min.css" />
-    <Content Include="Content\Css\demo.css" />
     <Content Include="Content\Css\Main.css" />
     <Content Include="Content\Css\nav.css" />
     <Content Include="Content\Css\normalize.css" />
     <Content Include="Content\Css\style.css" />
-    <Content Include="Content\Pictures\at.png" />
     <Content Include="Content\Pictures\blue_phone.png" />
     <Content Include="Content\Pictures\BorgenDataLogo.gif" />
     <Content Include="Content\Pictures\computers2.jpeg" />
     <Content Include="Content\Pictures\construction-work-carpenter-tools-large.jpg" />
-    <Content Include="Content\Pictures\ContactUs.png" />
-    <Content Include="Content\Pictures\contact_icon.png" />
     <Content Include="Content\Pictures\Email-Internet-PNG.png" />
-    <Content Include="Content\Pictures\facebook.png" />
     <Content Include="Content\Pictures\green_phone.png" />
     <Content Include="Content\Pictures\High_Performance_RAM.jpg" />
-    <Content Include="Content\Pictures\Hjem.png" />
-    <Content Include="Content\Pictures\images.jpg" />
-    <Content Include="Content\Pictures\img174.jpg" />
-    <Content Include="Content\Pictures\Kampanje.png" />
     <Content Include="Content\Pictures\mail-64.png" />
     <Content Include="Content\Pictures\Map_pin1.png" />
     <Content Include="Content\Pictures\pexels-photo-large.jpg" />
-    <Content Include="Content\Pictures\phone-contact-us.png" />
     <Content Include="Content\Pictures\ssd.jpg" />
     <Content Include="Content\Pictures\technology-computer-chips-gigabyte-large.jpg" />
     <Content Include="Content\Pictures\TELEFONE.png" />
-    <Content Include="Content\Pictures\topBG.png" />
     <Content Include="Content\Pictures\virus-and-spyware-removal.jpg" />
     <Content Include="Content\Pictures\web-html-code-background.jpg" />
     <Content Include="Content\Pictures\stov_pc.jpg" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Css\Site.css" />
     <Content Include="googlee2c8ae59b7dd3da4.html" />
-    <Content Include="Scripts\bjqs-1.3.js" />
     <Content Include="Scripts\bjqs.js" />
-    <Content Include="Scripts\bjqs.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="bundleconfig.json" />
-    <None Include="Properties\PublishProfiles\borgendata.pubxml" />
-    <None Include="Properties\PublishProfiles\Servern.pubxml" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\main.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\plugins.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -199,12 +169,8 @@
     <Content Include="Views\Home\TaKontakt.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\HelloWorld\Index.cshtml" />
     <Content Include="Views\Home\Reparasjon.cshtml" />
-    <Content Include="Views\Home\Backup.cshtml" />
-    <Content Include="Views\Home\WebDesign.cshtml" />
     <Content Include="Views\Home\Oppgradering.cshtml" />
-    <Content Include="Views\Home\DataSaving.cshtml" />
     <Content Include="Views\Home\Rensing.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -212,11 +178,7 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

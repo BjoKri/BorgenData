@@ -1,0 +1,14 @@
+{
+  "name": "borgendata-no",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "node scripts/deploy-sftp.mjs",
+    "diagnose-sftp": "node scripts/sftp-diagnose.mjs",
+    "pull-sftp": "node scripts/pull-sftp.mjs",
+    "cleanup-sftp": "node scripts/sftp-cleanup.mjs"
+  },
+  "dependencies": {
+    "ssh2-sftp-client": "^12.1.0"
+  }
+}
