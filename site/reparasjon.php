@@ -1,61 +1,65 @@
 <!doctype html>
-<html class="no-js" lang="no">
-
+<html lang="no">
 <head>
-
-    <link rel="canonical" href="http://www.borgendata.no/reparasjon.php">
-
-  <? require_once('shared/head.html')?>
-
-  <title>Borgen Data - Ditt lokale PC verksted i Sarpsborg</title>
-  <meta name="description" content="Borgen Data din lokale pc reparatør i sarpsborg. Vi utfører PC rens, PC oppgradering, PC reperasjoner, datahjelp, mm.  Ta kontakt!">
-  <meta name="keywords" content="reparere datamaskin,PC reparatør sarpsborg,PC verksted sarpsborg,PC oppgradering, PC reperasjoner, datahjelp, data problemer,fjerne virus">
-
+<?php
+require_once __DIR__ . '/shared/config.php';
+$pageTitle = 'PC-reparasjon i Sarpsborg | Borgen Data';
+$pageDescription = 'Vi feilsøker og reparerer PC i Sarpsborg og Borgenhaugen. Normal behandlingstid 2–4 dager. Ring 41 22 12 00.';
+$canonical = 'https://borgendata.no/reparasjon.php';
+$pageId = 'reparasjon';
+require_once __DIR__ . '/shared/head.php';
+?>
 </head>
-
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+  <?php require_once __DIR__ . '/shared/header.php'; ?>
 
-    <? require_once('shared/header.html')?>
+  <main id="main">
+    <header class="page-hero">
+      <div class="wrap">
+        <p class="crumb"><a href="/">Forside</a> / Reparasjon</p>
+        <h1>Reparasjon</h1>
+        <p class="lede">Feilsøking og reparasjon av PC-feil. Normal behandlingstid 2–4 dager. Vi sier ifra før vi går i gang hvis det ikke lønner seg.</p>
+      </div>
+    </header>
 
-  <div id="content">
-    <div class="contentHeader" id="reparasjonHeader">
-      <h1>Reparasjon</h1>
-    </div>
-      <p>
-        Vi har lang erfaring med feilsøking og feilretting av alle slags feil på PCer.
-        Du sparer tid og penger ved å benytte BorgenData som har konkuransedyktige priser og behandlingdtid.
-        Normal behandlingstid er 2-4 dager.
-      </p>
+    <div class="wrap page-body">
+      <article class="prose-block">
+        <p>Du sparer tid og penger ved å bruke et lokalt verksted som faktisk åpner maskinen. Ring før du leverer inn, så avklarer vi om det er reparasjon, rens eller oppgradering som hjelper.</p>
 
-      <p>
-        Kjenner du deg igjenn på noen av punktene nedenfor? <a href="kontakt.php">Ta kontakt!</a>
-      </p>
-
-      <p>
-        <ol class="rounded-list">
+        <h2>Typiske feil vi tar</h2>
+        <ol class="symptom-list">
           <li>PC starter ikke opp</li>
           <li>Windows starter ikke opp</li>
           <li>Feilmeldinger</li>
           <li>Ulyder</li>
           <li>Har ikke internett</li>
           <li>Utstyr virker ikke</li>
-          <li>Problemet med trådløst nett</li>
-          <li>Min PC har blitt treg -> se Rens</li>
-          <li>PC har alltid vært treg -> se Oppgraderinger</li>
+          <li>Problemer med trådløst nett</li>
+          <li>Min PC har blitt treg → se <a class="u" href="/rensing.php">Rensing</a></li>
+          <li>PC har alltid vært treg → se <a class="u" href="/oppgradering.php">Oppgradering</a></li>
+          <li>HDMI-port, lodding eller spillkonsoll → se <a class="u" href="/konsoller.php">Konsoller</a></li>
         </ol>
-      </p>
+
+        <div class="price-callout">
+          <p><?= FASTPRIS_TEKST ?></p>
+        </div>
+      </article>
+
+      <div class="related-grid">
+        <a class="service-card" href="/rensing.php"><h3>Rensing</h3><p>Treg PC, virus og støv.</p><em>Se mer</em></a>
+        <a class="service-card" href="/oppgradering.php"><h3>Oppgradering</h3><p>SSD og mer minne.</p><em>Se mer</em></a>
+      </div>
     </div>
-  
 
-    <? require_once('shared/footer.html')?>
+    <section class="cta-band wrap">
+      <div>
+        <h2>Ring før du leverer inn</h2>
+        <p>Vi avklarer hva som trengs og hva det koster.</p>
+      </div>
+      <a class="btn-blue" href="tel:+4741221200">41 22 12 00</a>
+    </section>
+  </main>
 
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <?php require_once __DIR__ . '/shared/footer.php'; ?>
 </body>
 </html>

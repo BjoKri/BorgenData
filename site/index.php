@@ -1,64 +1,285 @@
 <!doctype html>
-<html class="no-js" lang="no">
-
+<html lang="no">
 <head>
-
-  <? require_once('shared/head.html')?>
-
-  <link rel="canonical" href="http://www.borgendata.no/index.php">
-
-  <title>Borgen Data - Lokalt PC verksted i Sarpsborg, Borgenhagen</title>
-  <meta name="description" content="Din lokale pc reparatør i sarpsborg. Vi utfører PC rens, PC oppgradering, PC reperasjoner, datahjelp, mm.  Ta kontakt!">
-  <meta name="keywords" content="reparere datamaskin,PC reparatør sarpsborg,PC verksted sarpsborg,PC oppgradering, PC reperasjoner, datahjelp, data problemer,fjerne virus">
-
+<?php
+require_once __DIR__ . '/shared/config.php';
+$pageTitle = 'PC-reparatør i Sarpsborg | Borgen Data';
+$pageDescription = 'Lokalt PC-verksted i Parkveien 10, Borgenhaugen. Fastpris 1 500 kr · innlevering etter avtale · 2–4 dager. Ring 41 22 12 00.';
+$canonical = 'https://borgendata.no/';
+$pageId = 'hjem';
+require_once __DIR__ . '/shared/head.php';
+?>
 </head>
-
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+  <?php require_once __DIR__ . '/shared/header.php'; ?>
 
-  <? require_once('shared/header.html')?>
+  <main id="main">
+    <section>
+      <div class="wrap hero">
+        <div class="hero-copy">
+          <p class="mono-label">Sarpsborg · Borgenhaugen</p>
+          <h1>Din lokale PC-reparatør i Sarpsborg</h1>
+          <p class="lede">Vi feilsøker, renser og reparerer PC-er og konsoller. Lokalt verksted i Parkveien 10 — ring før du kommer.</p>
+          <div class="actions">
+            <a class="btn-blue" href="tel:+4741221200">Ring 41 22 12 00</a>
+            <a class="btn-ghost" href="tel:+4741221200">Ring før du kommer</a>
+          </div>
+          <p class="meta">Fastpris 1 500 kr · innlevering etter avtale · 2–4 dager</p>
+        </div>
+        <div class="hero-img">
+          <img src="/img/stov_pc.jpg" width="900" height="600" alt="Støv inne i en PC som skal renses på verkstedet">
+        </div>
+      </div>
+    </section>
 
-  <div id="content">
-    <h2>Din lokale PC reparatør i Sarpsborg! </h2>
-    <p>Trenger du datahjelp? Leter du etter et lokalt PC verksted i Sarpsborg eller Borgenhaugen? Borgen Data er din lokale PC reparatør og har god erfaring.
-    <p>Vi fjerner virus, reparer datamaskin, renser og oppgraderer din PC. Vi fikser det!</p>
-    <p>Ta med din PC til ditt lokale PC verksted, der fikser vi dataproblemet ditt innen kort tid.</p>
-    <p><a href="kontakt.php">Ta kontakt</a> for en hyggelig prat.</p>
-  </div>
+    <section class="wrap">
+      <div class="price-callout">
+        <p><?= FASTPRIS_TEKST ?></p>
+      </div>
+      <p class="hours-note"><?= TIMER_TEKST ?></p>
+    </section>
 
-    <div class="threeCellMain">
-      <a href="/reparasjon.php" class="threeCellFirst cleanLink" >
-        <div class="threeContent">
+    <section class="wrap">
+      <div class="stats">
+        <div>
+          <p>1 500</p>
+          <p>fastpris standard rens og reparasjon</p>
+        </div>
+        <div>
+          <p>2–4</p>
+          <p>dagers behandlingstid</p>
+        </div>
+        <div>
+          <p>08–22</p>
+          <p>telefontid</p>
+        </div>
+        <div>
+          <p>Parkveien 10</p>
+          <p>1738 Borgenhaugen</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section" style="padding-bottom:0">
+      <div class="section-head">
+        <h2>Slik foregår det</h2>
+      </div>
+      <ol class="process-list">
+        <li>
+          <h3>Ring</h3>
+          <p>Fortell hva som skjer. Vi sier ifra om det er lurt å levere inn, eller om det kan vente.</p>
+        </li>
+        <li>
+          <h3>Avtale innlevering</h3>
+          <p>Parkveien 10 etter avtale — vanligvis kveld eller helg. Ta med lader og kort beskrivelse av feilen. Ikke drop-in.</p>
+        </li>
+        <li>
+          <h3>Vi fikser</h3>
+          <p>Normal tid er 2–4 dager. Rens og enkel oppgradering kan gå fortere.</p>
+        </li>
+        <li>
+          <h3>Hent</h3>
+          <p>Du får beskjed når maskinen er klar. Si ifra før vi starter hvis det ikke lønner seg.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="wrap section">
+      <div class="section-head">
+        <h2>Tjenester</h2>
+      </div>
+      <div class="service-grid">
+        <a class="service-card" href="/reparasjon.php">
           <h3>Reparasjon</h3>
-          <p>
-            Har du problemer med din PC?<br />
-            Vi reparerer din PC !
-          </p>
-        </div>
-      </a>
-      <a href="/rensing.php" class="threeCellLast cleanLink">
-        <div class="threeContent">
+          <p>PC som ikke starter, Windows-feil, ulyder og nett som svikter.</p>
+          <em>Se mer</em>
+        </a>
+        <a class="service-card" href="/rensing.php">
           <h3>Rensing</h3>
-          <p>Vi fjerner virus og uønskede <br />programmer på din PC !</p>
-        </div>
-      </a>
-
-      <a href="/oppgradering.php" class="threeCellMiddle cleanLink">
-        <div class="threeContent">
+          <p>Virus, uønsket programvare og støv i vifter.</p>
+          <em>Se mer</em>
+        </a>
+        <a class="service-card" href="/oppgradering.php">
           <h3>Oppgradering</h3>
-          <p>Trenger du raskere PC?<br /> Vi oppgraderer din PC!</p>
-        </div>
+          <p>SSD og mer minne gir gammel maskin nytt liv.</p>
+          <em>Se mer</em>
+        </a>
+        <a class="service-card" href="/konsoller.php">
+          <h3>Konsoller</h3>
+          <p>HDMI-port, lodding og rens av spillkonsoller.</p>
+          <em>Se mer</em>
+        </a>
+        <a class="service-card" href="/nettsider.php">
+          <h3>Nettsider</h3>
+          <p>Enkle bedriftsnettsider. Se hovdum.no.</p>
+          <em>Se mer</em>
+        </a>
+      </div>
+    </section>
+
+    <section class="wrap section local-grid" style="padding-top:0">
+      <div>
+        <h2>Nærmeste verksted</h2>
+        <p class="lede">Arbeidet gjøres på Parkveien 10, som oftest kveld og helg. Uten leie av lokale holder vi prisen nede.</p>
+        <ul class="area-list">
+          <li>Borgenhaugen</li>
+          <li>Hafslund</li>
+          <li>Sandbakken</li>
+          <li>Klavestadhaugen</li>
+          <li>Bede</li>
+          <li>Hafslundsøy</li>
+        </ul>
+      </div>
+      <a class="map-card" href="https://www.google.com/maps/search/?api=1&query=Parkveien+10%2C+1738+Borgenhaugen">
+        <img src="/img/BD_Map.png" width="800" height="400" loading="lazy" alt="Kart over Parkveien 10, 1738 Borgenhaugen">
+        <span>Parkveien 10, 1738 Borgenhaugen · Åpne i Google Maps</span>
       </a>
-    </div>
+    </section>
 
-    <? require_once('shared/footer.html')?>
+    <section class="wrap section faq" style="padding-top:0">
+      <h2>Vanlige spørsmål</h2>
+      <div class="faq-list">
+        <details>
+          <summary><span>Hvor ligger verkstedet?</span><span class="plus">+</span></summary>
+          <p>Parkveien 10, 1738 Borgenhaugen i Sarpsborg. Innlevering etter avtale — ring først.</p>
+        </details>
+        <details>
+          <summary><span>Hva koster en reparasjon?</span><span class="plus">+</span></summary>
+          <p><?= FASTPRIS_TEKST ?> Ring <a class="u" href="tel:+4741221200">41 22 12 00</a>.</p>
+        </details>
+        <details>
+          <summary><span>Hvor lang tid tar det?</span><span class="plus">+</span></summary>
+          <p>Normal behandlingstid er 2–4 dager. Enkel rens eller oppgradering kan gå fortere.</p>
+        </details>
+        <details>
+          <summary><span>Når kan jeg ringe?</span><span class="plus">+</span></summary>
+          <p><?= TIMER_TEKST ?></p>
+        </details>
+        <details>
+          <summary><span>Fikser dere spillkonsoller?</span><span class="plus">+</span></summary>
+          <p>Ja. Vi bytter HDMI-porter, lodder og renser konsoller. Se <a class="u" href="/konsoller.php">Konsoller</a>.</p>
+        </details>
+        <details>
+          <summary><span>Har dere noe for små bedrifter?</span><span class="plus">+</span></summary>
+          <p>Ja. Se <a class="u" href="/bedrift">Bedrift</a> for timebank og faste avtaler for 2–8 PC-er.</p>
+        </details>
+      </div>
+    </section>
 
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <section class="contact">
+      <div class="wrap section contact-grid">
+        <div>
+          <span class="eyebrow">Kontakt</span>
+          <h2>Ring — så avklarer vi</h2>
+          <p class="prose"><?= TIMER_TEKST ?></p>
+          <div class="phones">
+            <a href="tel:+4741221200">
+              <span class="tiny">Bjørn Kristiansen</span>
+              <span class="big-num">41 22 12 00</span>
+            </a>
+            <div>
+              <span class="tiny">E-post</span>
+              <a class="u" href="mailto:bk@borgendata.no" style="display:block;margin-top:0.25rem;color:inherit">bk@borgendata.no</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <h3>Fastpris 1 500 kr</h3>
+            <p><?= FASTPRIS_TEKST ?></p>
+          </div>
+          <a class="btn-blue" href="/kontakt.php">Kontaktside</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <?php require_once __DIR__ . '/shared/footer.php'; ?>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ComputerRepair",
+        "@id": "https://borgendata.no/#business",
+        "name": "Borgen Data",
+        "url": "https://borgendata.no",
+        "image": "https://borgendata.no/img/stov_pc.jpg",
+        "telephone": "+4741221200",
+        "email": "bk@borgendata.no",
+        "priceRange": "1500 NOK",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Parkveien 10",
+          "postalCode": "1738",
+          "addressLocality": "Borgenhaugen",
+          "addressRegion": "Østfold",
+          "addressCountry": "NO"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 59.278,
+          "longitude": 11.109
+        },
+        "areaServed": [
+          {"@type": "City", "name": "Sarpsborg"},
+          {"@type": "Place", "name": "Borgenhaugen"},
+          {"@type": "Place", "name": "Hafslund"},
+          {"@type": "Place", "name": "Sandbakken"},
+          {"@type": "Place", "name": "Klavestadhaugen"},
+          {"@type": "Place", "name": "Bede"},
+          {"@type": "Place", "name": "Hafslundsøy"}
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+4741221200",
+          "contactType": "customer service",
+          "availableLanguage": "Norwegian",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+            "opens": "08:00",
+            "closes": "22:00"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "1500",
+          "priceCurrency": "NOK",
+          "description": "Fastpris standard rens og reparasjon"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://borgendata.no/#website",
+        "url": "https://borgendata.no",
+        "name": "Borgen Data",
+        "inLanguage": "nb-NO",
+        "publisher": {"@id": "https://borgendata.no/#business"}
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hvor ligger verkstedet?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Parkveien 10, 1738 Borgenhaugen i Sarpsborg. Innlevering etter avtale — ring først."}
+          },
+          {
+            "@type": "Question",
+            "name": "Hva koster en reparasjon?",
+            "acceptedAnswer": {"@type": "Answer", "text": <?= json_encode(FASTPRIS_TEKST, JSON_UNESCAPED_UNICODE) ?>}
+          },
+          {
+            "@type": "Question",
+            "name": "Hvor lang tid tar det?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Normal behandlingstid er 2–4 dager. Enkel rens eller oppgradering kan gå fortere."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </body>
 </html>
