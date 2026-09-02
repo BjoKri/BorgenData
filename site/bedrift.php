@@ -3,8 +3,8 @@
 <head>
 <?php
 require_once __DIR__ . '/shared/config.php';
-$pageTitle = 'IT for små bedrifter i Sarpsborg | Borgen Data';
-$pageDescription = 'Timebank og faste avtaler for bedrifter med 1–8 PC-er. Fjernhjelp først, ingen 24/7. Ring 41 22 12 00.';
+$pageTitle = 'IT for små firmaer i Sarpsborg | Borgen Data';
+$pageDescription = 'Borgen Data tar IT-en til firmaer med 2–8 PC-er i Sarpsborg. Hjelp over nettet først. Ring 41 22 12 00.';
 $canonical = 'https://borgendata.no/bedrift';
 $pageId = 'bedrift';
 require_once __DIR__ . '/shared/head.php';
@@ -17,82 +17,74 @@ require_once __DIR__ . '/shared/head.php';
     <header class="page-hero">
       <div class="wrap">
         <p class="crumb"><a href="/">Forside</a> / Bedrift</p>
-        <h1>Bedrift</h1>
-        <p class="lede">IT-hjelp for små firmaer med 1–8 PC-er. Én person — fjernhjelp først, ingen 24/7 og ingen SLA-jungel.</p>
+        <h1>IT-hjelp til små firmaer</h1>
+        <p class="lede">Borgen Data tar IT-en til firmaer med 2–8 PC-er i Sarpsborg. Én fast person å ringe. Hjelp over nettet først. Ikke vakttelefon om natten.</p>
       </div>
     </header>
 
     <div class="wrap page-body">
       <article class="prose-block">
-        <p>Dataingeniør, vant til å feilsøke vanskelige systemer, passer på dataene dine.</p>
-        <p>Alle priser eks. mva. Ring <a class="u" href="tel:+4741221200">41 22 12 00</a> — ingen skjema, bare en samtale.</p>
+        <p>PC og nett, e-post og skrivere, nye maskiner, lodding når det trengs, og enkle nettsider.</p>
+        <p>Alle priser under er uten mva. Ring <a class="u" href="tel:+4741221200">41 22 12 00</a>.</p>
       </article>
 
       <div class="pricing-grid">
         <div class="price-card">
-          <h2>Timebank</h2>
-          <p class="price-amount">1 490 kr/t</p>
-          <p class="price-note">Min. 1 t remote · +500 kr kjøring</p>
-          <ul class="check-list">
-            <li>Break/fix</li>
-            <li>M365-brukerrot, e-post, printer</li>
-            <li>Ny PC-oppsett</li>
-          </ul>
-          <p class="muted-small">Ikke SLA.</p>
+          <h2>Timehjelp</h2>
+          <p class="price-amount">1 490 kr i timen</p>
+          <p class="price-note">Minst én time over nettet. 500 kr ekstra hvis vi må kjøre.</p>
+          <p>Passer når noe er ødelagt nå: PC, e-post, skriver, ny maskin som skal i gang.</p>
         </div>
 
         <div class="price-card">
-          <h2>Kontakt Mini</h2>
-          <p class="price-amount">2 490 kr/mnd</p>
-          <p class="price-note">2–4 PC-er</p>
+          <h2>Fast hjelp, 2–4 PC-er</h2>
+          <p class="price-amount">2 490 kr i måneden</p>
           <ul class="check-list">
-            <li>1 t remote inkludert</li>
-            <li>Svar samme uke kveld/lørdag</li>
-            <li>Årlig backup-sjekk</li>
-            <li>Skriftlig M365/passord-notat</li>
+            <li>Én time hjelp over nettet inkludert</li>
+            <li>Svar samme uke, kveld eller lørdag</li>
+            <li>Vi sjekker sikkerhetskopi én gang i året</li>
+            <li>Du får et ark med hvem som eier hva, og hvordan dere logger inn</li>
           </ul>
         </div>
 
         <div class="price-card">
-          <h2>Kontakt Standard</h2>
-          <p class="price-amount">4 490 kr/mnd</p>
-          <p class="price-note">5–8 PC-er</p>
+          <h2>Fast hjelp, 5–8 PC-er</h2>
+          <p class="price-amount">4 490 kr i måneden</p>
           <ul class="check-list">
-            <li>2 t inkludert</li>
-            <li>Onboarding/offboarding</li>
-            <li>MFA, delt postboks</li>
-            <li>Kvartalsvis 1 t on-site</li>
+            <li>To timer inkludert</li>
+            <li>Når noen begynner eller slutter, får de (eller mister) tilgang</li>
+            <li>Innlogging med kode på telefonen</li>
+            <li>Delt e-post der det trengs</li>
+            <li>Én time hos dere i kvartalet</li>
           </ul>
         </div>
       </div>
 
       <div class="price-card price-card-wide">
-        <h2>Oppstart</h2>
-        <p class="price-amount">4 900–9 900 kr engang</p>
+        <h2>Første gjennomgang</h2>
+        <p class="price-amount">4 900–9 900 kr, én gang</p>
         <ul class="check-list">
-          <li>Inventar</li>
-          <li>MFA på</li>
-          <li>Backup restorert én gang</li>
-          <li>DNS/domene</li>
-          <li>«Hvem ringer du»-ark</li>
+          <li>Liste over maskiner</li>
+          <li>Innlogging med kode slått på</li>
+          <li>Sikkerhetskopi som vi har prøvd å hente tilbake fra, én gang</li>
+          <li>Domenenavn og e-post på plass</li>
+          <li>Et ark med hvem dere ringer</li>
         </ul>
       </div>
 
       <div class="not-included">
-        <h2>Dette tilbyr vi ikke</h2>
+        <h2>Dette gjør vi ikke</h2>
         <ul class="check-list">
-          <li>15 min SLA</li>
-          <li>SOC / sikkerhetssenter</li>
-          <li>MDM som produkt</li>
-          <li>24/7 vakttelefon</li>
+          <li>Vi sitter ikke vakt midt på natten</li>
+          <li>Vi er ikke et stort IT-firma som overvåker alle maskiner døgnet rundt</li>
+          <li>Vi selger ikke store overvåkingspakker</li>
         </ul>
       </div>
     </div>
 
     <section class="cta-band wrap">
       <div>
-        <h2>Ring og fortell hva firmaet trenger</h2>
-        <p>Vi finner ut om timebank eller fast avtale passer.</p>
+        <h2>Ring 41 22 12 00 og fortell hvor mange maskiner dere er</h2>
       </div>
       <a class="btn-blue" href="tel:+4741221200">41 22 12 00</a>
     </section>

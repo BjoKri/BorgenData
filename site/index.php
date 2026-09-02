@@ -3,8 +3,8 @@
 <head>
 <?php
 require_once __DIR__ . '/shared/config.php';
-$pageTitle = 'PC-reparatør i Sarpsborg | Borgen Data';
-$pageDescription = 'Lokalt PC-verksted i Parkveien 10, Borgenhaugen. Fastpris 1 500 kr · innlevering etter avtale · 2–4 dager. Ring 41 22 12 00.';
+$pageTitle = 'PC-reparasjon i Sarpsborg | Borgen Data';
+$pageDescription = 'Borgen Data renser, reparerer og oppgraderer PC-er og spillkonsoller. Verksted i Parkveien 10. Ring før du kommer. Fastpris 1 500 kr.';
 $canonical = 'https://borgendata.no/';
 $pageId = 'hjem';
 require_once __DIR__ . '/shared/head.php';
@@ -17,14 +17,14 @@ require_once __DIR__ . '/shared/head.php';
     <section>
       <div class="wrap hero">
         <div class="hero-copy">
-          <p class="mono-label">Sarpsborg · Borgenhaugen</p>
-          <h1>Din lokale PC-reparatør i Sarpsborg</h1>
-          <p class="lede">Vi feilsøker, renser og reparerer PC-er og konsoller. Lokalt verksted i Parkveien 10 — ring før du kommer.</p>
+          <p class="mono-label">Sarpsborg · Borgenhaugen · siden 2008</p>
+          <h1>PC-reparasjon i Sarpsborg</h1>
+          <p class="lede">Borgen Data renser, reparerer og oppgraderer PC-er og spillkonsoller. Verksted i Parkveien 10. Ring før du kommer.</p>
           <div class="actions">
             <a class="btn-blue" href="tel:+4741221200">Ring 41 22 12 00</a>
             <a class="btn-ghost" href="tel:+4741221200">Ring før du kommer</a>
           </div>
-          <p class="meta">Fastpris 1 500 kr · innlevering etter avtale · 2–4 dager</p>
+          <p class="meta">Fastpris 1 500 kr · innlevering etter avtale · ferdig på 2–4 dager</p>
         </div>
         <div class="hero-img">
           <img src="/img/stov_pc.jpg" width="900" height="600" alt="Støv inne i en PC som skal renses på verkstedet">
@@ -43,11 +43,11 @@ require_once __DIR__ . '/shared/head.php';
       <div class="stats">
         <div>
           <p>1 500</p>
-          <p>fastpris standard rens og reparasjon</p>
+          <p>fastpris, vanlig rens og reparasjon</p>
         </div>
         <div>
           <p>2–4</p>
-          <p>dagers behandlingstid</p>
+          <p>dager, vanligvis ferdig</p>
         </div>
         <div>
           <p>08–22</p>
@@ -67,19 +67,19 @@ require_once __DIR__ . '/shared/head.php';
       <ol class="process-list">
         <li>
           <h3>Ring</h3>
-          <p>Fortell hva som skjer. Vi sier ifra om det er lurt å levere inn, eller om det kan vente.</p>
+          <p>Fortell hva som skjer. Vi sier ifra om det lønner seg å levere inn, eller om det kan vente.</p>
         </li>
         <li>
           <h3>Avtale innlevering</h3>
-          <p>Parkveien 10 etter avtale — vanligvis kveld eller helg. Ta med lader og kort beskrivelse av feilen. Ikke drop-in.</p>
+          <p>Parkveien 10 etter avtale, som regel kveld eller helg. Ta med lader og en lapp om feilen. Ikke møt opp uten avtale.</p>
         </li>
         <li>
           <h3>Vi fikser</h3>
-          <p>Normal tid er 2–4 dager. Rens og enkel oppgradering kan gå fortere.</p>
+          <p>Vanligvis 2–4 dager. Rens og enkel oppgradering kan gå fortere.</p>
         </li>
         <li>
           <h3>Hent</h3>
-          <p>Du får beskjed når maskinen er klar. Si ifra før vi starter hvis det ikke lønner seg.</p>
+          <p>Du får beskjed når maskinen er klar. Vi sier ifra før vi starter hvis det ikke lønner seg.</p>
         </li>
       </ol>
     </section>
@@ -89,29 +89,29 @@ require_once __DIR__ . '/shared/head.php';
         <h2>Tjenester</h2>
       </div>
       <div class="service-grid">
-        <a class="service-card" href="/reparasjon.php">
+        <a class="service-card" href="/reparasjon">
           <h3>Reparasjon</h3>
-          <p>PC som ikke starter, Windows-feil, ulyder og nett som svikter.</p>
+          <p>PC som ikke starter, Windows som krangler, rare lyder og nett som dropper.</p>
           <em>Se mer</em>
         </a>
-        <a class="service-card" href="/rensing.php">
+        <a class="service-card" href="/rensing">
           <h3>Rensing</h3>
-          <p>Virus, uønsket programvare og støv i vifter.</p>
+          <p>Virus, uønskede programmer og støv i viftene.</p>
           <em>Se mer</em>
         </a>
-        <a class="service-card" href="/oppgradering.php">
+        <a class="service-card" href="/oppgradering">
           <h3>Oppgradering</h3>
-          <p>SSD og mer minne gir gammel maskin nytt liv.</p>
+          <p>SSD og mer minne. Gammel maskin, uten å kjøpe ny.</p>
           <em>Se mer</em>
         </a>
-        <a class="service-card" href="/konsoller.php">
+        <a class="service-card" href="/konsoller">
           <h3>Konsoller</h3>
-          <p>HDMI-port, lodding og rens av spillkonsoller.</p>
+          <p>HDMI-port, lodding og rens når bildet er borte eller konsollen koker.</p>
           <em>Se mer</em>
         </a>
-        <a class="service-card" href="/nettsider.php">
+        <a class="service-card" href="/nettsider">
           <h3>Nettsider</h3>
-          <p>Enkle bedriftsnettsider. Se hovdum.no.</p>
+          <p>Enkle sider for lokale firmaer. Se hovdum.no.</p>
           <em>Se mer</em>
         </a>
       </div>
@@ -120,7 +120,7 @@ require_once __DIR__ . '/shared/head.php';
     <section class="wrap section local-grid" style="padding-top:0">
       <div>
         <h2>Nærmeste verksted</h2>
-        <p class="lede">Arbeidet gjøres på Parkveien 10, som oftest kveld og helg. Uten leie av lokale holder vi prisen nede.</p>
+        <p class="lede">Arbeidet gjøres i Parkveien 10, som oftest kveld og helg. Uten dyrt lokale holder vi prisen nede.</p>
         <ul class="area-list">
           <li>Borgenhaugen</li>
           <li>Hafslund</li>
@@ -141,27 +141,31 @@ require_once __DIR__ . '/shared/head.php';
       <div class="faq-list">
         <details>
           <summary><span>Hvor ligger verkstedet?</span><span class="plus">+</span></summary>
-          <p>Parkveien 10, 1738 Borgenhaugen i Sarpsborg. Innlevering etter avtale — ring først.</p>
+          <p>Parkveien 10, 1738 Borgenhaugen i Sarpsborg. Ring først. Innlevering etter avtale.</p>
         </details>
         <details>
-          <summary><span>Hva koster en reparasjon?</span><span class="plus">+</span></summary>
+          <summary><span>Hva koster det?</span><span class="plus">+</span></summary>
           <p><?= FASTPRIS_TEKST ?> Ring <a class="u" href="tel:+4741221200">41 22 12 00</a>.</p>
         </details>
         <details>
           <summary><span>Hvor lang tid tar det?</span><span class="plus">+</span></summary>
-          <p>Normal behandlingstid er 2–4 dager. Enkel rens eller oppgradering kan gå fortere.</p>
+          <p>Vanligvis 2–4 dager. Rens eller oppgradering kan gå fortere.</p>
         </details>
         <details>
           <summary><span>Når kan jeg ringe?</span><span class="plus">+</span></summary>
-          <p><?= TIMER_TEKST ?></p>
+          <p>Mellom kl. 08 og 22. Innlevering er etter avtale, som regel kveld og helg.</p>
         </details>
         <details>
           <summary><span>Fikser dere spillkonsoller?</span><span class="plus">+</span></summary>
-          <p>Ja. Vi bytter HDMI-porter, lodder og renser konsoller. Se <a class="u" href="/konsoller.php">Konsoller</a>.</p>
+          <p>Ja. HDMI-port, lodding og rens. Se <a class="u" href="/konsoller">Konsoller</a>.</p>
         </details>
         <details>
-          <summary><span>Har dere noe for små bedrifter?</span><span class="plus">+</span></summary>
-          <p>Ja. Se <a class="u" href="/bedrift">Bedrift</a> for timebank og faste avtaler for 2–8 PC-er.</p>
+          <summary><span>Lager dere nettsider?</span><span class="plus">+</span></summary>
+          <p>Ja. Enkle bedriftsnettsider. Se <a class="u" href="/nettsider">Nettsider</a>.</p>
+        </details>
+        <details>
+          <summary><span>Har dere noe for små firmaer?</span><span class="plus">+</span></summary>
+          <p>Ja. Fast hjelp og timehjelp for 2–8 PC-er. Se <a class="u" href="/bedrift">Bedrift</a>.</p>
         </details>
       </div>
     </section>
@@ -170,11 +174,10 @@ require_once __DIR__ . '/shared/head.php';
       <div class="wrap section contact-grid">
         <div>
           <span class="eyebrow">Kontakt</span>
-          <h2>Ring — så avklarer vi</h2>
-          <p class="prose"><?= TIMER_TEKST ?></p>
+          <h2>Ring, så avklarer vi</h2>
+          <p class="prose">Ring mellom kl. 08 og 22. Innlevering i Parkveien 10 etter avtale, som regel kveld og helg. Ikke møt opp uten å ha ringt.</p>
           <div class="phones">
             <a href="tel:+4741221200">
-              <span class="tiny">Bjørn Kristiansen</span>
               <span class="big-num">41 22 12 00</span>
             </a>
             <div>
@@ -188,7 +191,7 @@ require_once __DIR__ . '/shared/head.php';
             <h3>Fastpris 1 500 kr</h3>
             <p><?= FASTPRIS_TEKST ?></p>
           </div>
-          <a class="btn-blue" href="/kontakt.php">Kontaktside</a>
+          <a class="btn-blue" href="/kontakt">Kontaktside</a>
         </div>
       </div>
     </section>
@@ -247,7 +250,7 @@ require_once __DIR__ . '/shared/head.php';
           "@type": "Offer",
           "price": "1500",
           "priceCurrency": "NOK",
-          "description": "Fastpris standard rens og reparasjon"
+          "description": "Fastpris vanlig rens og reparasjon"
         }
       },
       {
@@ -264,17 +267,17 @@ require_once __DIR__ . '/shared/head.php';
           {
             "@type": "Question",
             "name": "Hvor ligger verkstedet?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Parkveien 10, 1738 Borgenhaugen i Sarpsborg. Innlevering etter avtale — ring først."}
+            "acceptedAnswer": {"@type": "Answer", "text": "Parkveien 10, 1738 Borgenhaugen i Sarpsborg. Ring først. Innlevering etter avtale."}
           },
           {
             "@type": "Question",
-            "name": "Hva koster en reparasjon?",
+            "name": "Hva koster det?",
             "acceptedAnswer": {"@type": "Answer", "text": <?= json_encode(FASTPRIS_TEKST, JSON_UNESCAPED_UNICODE) ?>}
           },
           {
             "@type": "Question",
             "name": "Hvor lang tid tar det?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Normal behandlingstid er 2–4 dager. Enkel rens eller oppgradering kan gå fortere."}
+            "acceptedAnswer": {"@type": "Answer", "text": "Vanligvis 2–4 dager. Rens eller oppgradering kan gå fortere."}
           }
         ]
       }

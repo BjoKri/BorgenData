@@ -4,8 +4,8 @@
 <?php
 require_once __DIR__ . '/shared/config.php';
 $pageTitle = 'Om Borgen Data | PC-verksted i Sarpsborg';
-$pageDescription = 'Borgen Data er et lokalt PC-verksted i Parkveien 10, Borgenhaugen. Drevet av dataingeniør Bjørn Kristiansen siden 2008.';
-$canonical = 'https://borgendata.no/om.php';
+$pageDescription = 'Borgen Data har reparert PC-er i Sarpsborg siden 2008. Verksted i Parkveien 10, Borgenhaugen.';
+$canonical = 'https://borgendata.no/om';
 $pageId = 'om';
 require_once __DIR__ . '/shared/head.php';
 ?>
@@ -18,19 +18,14 @@ require_once __DIR__ . '/shared/head.php';
       <div class="wrap">
         <p class="crumb"><a href="/">Forside</a> / Om</p>
         <h1>Om Borgen Data</h1>
-        <p class="lede">Lokalt PC-verksted i Borgenhaugen. Én person som åpner maskinen, feilsøker og holder prisen nede.</p>
       </div>
     </header>
 
     <div class="wrap page-body">
       <article class="prose-block">
-        <p>Borgen Data er et privat foretak i Sarpsborg, drevet av dataingeniør Bjørn Kristiansen siden 2008. Vi reparerer og renser PC-er, oppgraderer maskiner, fikser konsoller og lager enkle nettsider.</p>
-        <p>Arbeidet utføres på Parkveien 10, som oftest på kveldstid og i helger. Uten dyre lokaler kan prisen holdes lav.</p>
-        <p>Hjemmebesøk kan avtales ved mindre problemer i Hafslund, Borgenhaugen, Sandbakken, Klavestadhaugen, Bede og Hafslundsøy.</p>
-
-        <div class="price-callout">
-          <p><?= FASTPRIS_TEKST ?></p>
-        </div>
+        <p>Borgen Data har reparert PC-er i Sarpsborg siden 2008. Innehaver er dataingeniør Bjørn Kristiansen. Arbeidet gjøres i Parkveien 10, som oftest kveld og helg.</p>
+        <p>Uten dyrt lokale holder vi prisen nede. Fastpris 1 500 kr på vanlig rens og reparasjon.</p>
+        <p>Hjemmebesøk kan avtales ved små problemer i Hafslund, Borgenhaugen, Sandbakken, Klavestadhaugen, Bede og Hafslundsøy.</p>
       </article>
 
       <a class="map-card" href="https://www.google.com/maps/search/?api=1&query=Parkveien+10%2C+1738+Borgenhaugen" style="margin-top:2rem">

@@ -5,7 +5,7 @@
 require_once __DIR__ . '/shared/config.php';
 $pageTitle = 'Konsollreparasjon i Sarpsborg | Borgen Data';
 $pageDescription = 'HDMI-port, lodding og rens av spillkonsoller. Lokalt verksted i Borgenhaugen. Ring før du leverer inn.';
-$canonical = 'https://borgendata.no/konsoller.php';
+$canonical = 'https://borgendata.no/konsoller';
 $pageId = 'konsoller';
 require_once __DIR__ . '/shared/head.php';
 ?>
@@ -17,22 +17,14 @@ require_once __DIR__ . '/shared/head.php';
     <header class="page-hero">
       <div class="wrap">
         <p class="crumb"><a href="/">Forside</a> / Konsoller</p>
-        <h1>Konsoller</h1>
-        <p class="lede">HDMI-port, lodding og rens av spillkonsoller. Pris avhenger av modell og skade — vi avtaler før vi starter.</p>
+        <h1>HDMI, lodding og rens av konsoll</h1>
       </div>
     </header>
 
     <div class="wrap page-body">
       <article class="prose-block">
-        <p>En ødelagt HDMI-port er en vanlig grunn til at bildet forsvinner, selv om konsollen ellers virker.</p>
-
-        <ul class="check-list">
-          <li>Bytte av HDMI-port på spillkonsoll</li>
-          <li>Annen lodding på kretskort der det er praktisk mulig</li>
-          <li>Rens av konsoll: støv, vifter og overoppheting</li>
-        </ul>
-
-        <p>Ta med lader og eventuelle feilmeldinger. Konsollreparasjon avtales før vi starter — lønner det seg ikke, sier vi ifra.</p>
+        <p>Ødelagt HDMI-port er en vanlig grunn til at bildet forsvinner, selv om konsollen ellers virker. Vi bytter port, lodder der det er praktisk mulig, og renser støv og vifter.</p>
+        <p>Ta med lader. Si ifra om feilmeldinger. Vi sier ifra før vi går i gang hvis det ikke lønner seg. Pris etter modell og skade — ring først.</p>
       </article>
     </div>
 

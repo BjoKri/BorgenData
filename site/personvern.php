@@ -4,7 +4,7 @@
 <?php
 require_once __DIR__ . '/shared/config.php';
 $pageTitle = 'Personvern | Borgen Data';
-$pageDescription = 'Slik Borgen Data behandler data på PC-er som leveres inn til reparasjon.';
+$pageDescription = 'Slik Borgen Data behandler opplysninger og data på PC-er som leveres inn.';
 $canonical = 'https://borgendata.no/personvern';
 $pageId = 'personvern';
 require_once __DIR__ . '/shared/head.php';
@@ -23,12 +23,11 @@ require_once __DIR__ . '/shared/head.php';
 
     <div class="wrap page-body">
       <article class="prose-block">
-        <h2>PC-er du leverer inn</h2>
-        <p>Vi ser på det som trengs for å feilsøke og reparere. Vi kopierer ikke filer uten avtale, og vi selger ikke data videre.</p>
-        <p>Når du henter maskinen, slettes arbeidskopier vi ikke lenger trenger.</p>
-
-        <h2>Kontakt</h2>
-        <p>Spørsmål om personvern: <a class="u" href="mailto:bk@borgendata.no">bk@borgendata.no</a> eller <a class="u" href="tel:+4741221200">41 22 12 00</a>.</p>
+        <p>Borgen Data, org.nr 993 225 177, Parkveien 10, 1738 Borgenhaugen.</p>
+        <p>Når du ringer eller skriver, lagrer vi navn, telefon, e-post og det du forteller om feilen, så vi kan gjøre jobben.</p>
+        <p>PC og disk du leverer inn, åpner vi for å feilsøke og reparere. Vi kopierer ikke filene dine uten at vi har avtalt det. Vi selger ikke data. Når du har hentet maskinen, sletter vi arbeidskopier vi ikke lenger trenger.</p>
+        <p>Nettsiden trenger ikke konto. Vi bruker ikke reklame-sporere.</p>
+        <p>Spørsmål: <a class="u" href="mailto:bk@borgendata.no">bk@borgendata.no</a> eller <a class="u" href="tel:+4741221200">41 22 12 00</a>.</p>
       </article>
     </div>
   </main>

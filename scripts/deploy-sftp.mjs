@@ -3,6 +3,7 @@
  * Passord: BORGENDATA_SFTP_PASSWORD, .env.deploy, eller standard i sftp-config.mjs.
  */
 import { existsSync } from "node:fs";
+import path from "node:path";
 import SftpClient from "ssh2-sftp-client";
 import {
   connectOptions,
@@ -10,6 +11,13 @@ import {
   remoteDirs,
   siteDir,
 } from "./sftp-config.mjs";
+
+/** Paths under site/ that must not be uploaded (design drafts, local only). */
+function shouldPublish(localPath) {
+  const rel = path.relative(siteDir, localPath).replace(/\\/g, "/");
+  if (!rel || rel === ".") return true;
+  return rel !== "alternative" && !rel.startsWith("alternative/");
+}
 
 if (!existsSync(siteDir)) {
   console.error("Mappen site/ finnes ikke.");
@@ -24,7 +32,10 @@ try {
     const resolved = await client.realPath(remoteDir);
     if (seen.has(resolved)) continue;
     seen.add(resolved);
-    await client.uploadDir(siteDir, resolved, { overwrite: true });
+    await client.uploadDir(siteDir, resolved, {
+      overwrite: true,
+      filter: (localPath) => shouldPublish(localPath),
+    });
     console.log(`Publisert: ${siteDir} -> ${resolved} på ${host}`);
   }
 } catch (err) {

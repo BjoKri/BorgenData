@@ -6,9 +6,16 @@
     "deploy": "node scripts/deploy-sftp.mjs",
     "diagnose-sftp": "node scripts/sftp-diagnose.mjs",
     "pull-sftp": "node scripts/pull-sftp.mjs",
-    "cleanup-sftp": "node scripts/sftp-cleanup.mjs"
+    "cleanup-sftp": "node scripts/sftp-cleanup.mjs",
+    "optimize-images": "node scripts/optimize-images.mjs",
+    "preview": "node scripts/preview-site.mjs",
+    "preview:alternative": "node scripts/preview-alternative.mjs",
+    "preview:alternative3": "node scripts/preview-alternative3.mjs"
   },
   "dependencies": {
     "ssh2-sftp-client": "^12.1.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.4"
   }
 }

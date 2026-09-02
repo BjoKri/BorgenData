@@ -22,16 +22,16 @@
       <div class="nav-group">
         <button type="button" class="nav-parent" aria-expanded="false" aria-controls="tjenester-meny">Tjenester</button>
         <div class="nav-panel" id="tjenester-meny">
-          <a href="/reparasjon.php" <?= $pageId === 'reparasjon' ? 'aria-current="page"' : '' ?>>Reparasjon</a>
-          <a href="/rensing.php" <?= $pageId === 'rensing' ? 'aria-current="page"' : '' ?>>Rensing</a>
-          <a href="/oppgradering.php" <?= $pageId === 'oppgradering' ? 'aria-current="page"' : '' ?>>Oppgradering</a>
-          <a href="/konsoller.php" <?= $pageId === 'konsoller' ? 'aria-current="page"' : '' ?>>Konsoller</a>
-          <a href="/nettsider.php" <?= $pageId === 'nettsider' ? 'aria-current="page"' : '' ?>>Nettsider</a>
+          <a href="/reparasjon" <?= $pageId === 'reparasjon' ? 'aria-current="page"' : '' ?>>Reparasjon</a>
+          <a href="/rensing" <?= $pageId === 'rensing' ? 'aria-current="page"' : '' ?>>Rensing</a>
+          <a href="/oppgradering" <?= $pageId === 'oppgradering' ? 'aria-current="page"' : '' ?>>Oppgradering</a>
+          <a href="/konsoller" <?= $pageId === 'konsoller' ? 'aria-current="page"' : '' ?>>Konsoller</a>
+          <a href="/nettsider" <?= $pageId === 'nettsider' ? 'aria-current="page"' : '' ?>>Nettsider</a>
         </div>
       </div>
       <a class="u" href="/bedrift" <?= $pageId === 'bedrift' ? 'aria-current="page"' : '' ?>>Bedrift</a>
-      <a class="u" href="/om.php" <?= $pageId === 'om' ? 'aria-current="page"' : '' ?>>Om</a>
-      <a class="u" href="/kontakt.php" <?= $pageId === 'kontakt' ? 'aria-current="page"' : '' ?>>Kontakt</a>
+      <a class="u" href="/om" <?= $pageId === 'om' ? 'aria-current="page"' : '' ?>>Om</a>
+      <a class="u" href="/kontakt" <?= $pageId === 'kontakt' ? 'aria-current="page"' : '' ?>>Kontakt</a>
     </nav>
 
     <a class="btn-ink header-call" href="tel:+4741221200">41 22 12 00</a>

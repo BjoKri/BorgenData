@@ -1,0 +1,63 @@
+<hr>
+<footer>
+  <div id="footer">
+    <p>Borgen Data – PC-verksted og nettsider i Sarpsborg</p>
+    <p>Parkveien 10, 1738 Borgenhaugen</p>
+    <p>TLF <a href="tel:+4741221200">41 22 12 00</a> – Bjørn Kristiansen</p>
+    <p>TLF <a href="tel:+4792082685">92 08 26 85</a> – Nathalie Kristiansen</p>
+    <p>
+      <a href="/reparasjon.php">Reparasjon</a> ·
+      <a href="/rensing.php">Rensing</a> ·
+      <a href="/oppgradering.php">Oppgradering</a> ·
+      <a href="/konsoller.php">Konsoller</a> ·
+      <a href="/nettsider.php">Nettsider</a> ·
+      <a href="/kontakt.php">Kontakt</a>
+    </p>
+  </div>
+</footer>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ComputerRepair",
+      "@id": "https://borgendata.no/#business",
+      "name": "Borgen Data",
+      "url": "https://borgendata.no",
+      "image": "https://borgendata.no/og-image.jpg",
+      "telephone": "+4741221200",
+      "email": "support@borgendata.no",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Parkveien 10",
+        "postalCode": "1738",
+        "addressLocality": "Borgenhaugen",
+        "addressRegion": "Østfold",
+        "addressCountry": "NO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 59.27027,
+        "longitude": 11.14775
+      },
+      "areaServed": ["Sarpsborg", "Borgenhaugen", "Hafslund", "Sandbakken", "Klavestadhaugen"],
+      "knowsAbout": ["PC-reparasjon", "virusfjerning", "SSD-oppgradering", "lodding", "HDMI-port", "spillkonsoll", "nettsider"],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "08:00",
+        "closes": "22:00"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://borgendata.no/#website",
+      "url": "https://borgendata.no",
+      "name": "Borgen Data",
+      "inLanguage": "nb-NO",
+      "publisher": { "@id": "https://borgendata.no/#business" }
+    }
+  ]
+}
+</script>
+<? require_once('shared/scripts.html') ?>

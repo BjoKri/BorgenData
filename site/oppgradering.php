@@ -4,8 +4,8 @@
 <?php
 require_once __DIR__ . '/shared/config.php';
 $pageTitle = 'PC-oppgradering i Sarpsborg | Borgen Data';
-$pageDescription = 'SSD og mer minne gir gammel PC nytt liv. Lokalt verksted i Borgenhaugen. Deler til kostpris i tillegg til arbeid.';
-$canonical = 'https://borgendata.no/oppgradering.php';
+$pageDescription = 'SSD og mer minne gir raskere PC uten å kjøpe ny. Lokalt verksted i Borgenhaugen. Ring 41 22 12 00.';
+$canonical = 'https://borgendata.no/oppgradering';
 $pageId = 'oppgradering';
 require_once __DIR__ . '/shared/head.php';
 ?>
@@ -17,27 +17,18 @@ require_once __DIR__ . '/shared/head.php';
     <header class="page-hero">
       <div class="wrap">
         <p class="crumb"><a href="/">Forside</a> / Oppgradering</p>
-        <h1>Oppgradering</h1>
-        <p class="lede">Nytt liv i maskinen, uten ny maskin. SSD og mer minne er de vanligste oppgraderingene.</p>
+        <h1>Raskere PC, uten å kjøpe ny</h1>
       </div>
     </header>
 
     <div class="wrap page-body">
       <article class="prose-block">
-        <p>Er PC-en blitt for treg, er det ikke alltid bare å kjøpe ny. To vanlige flaskehalser: for lite minne og for treg harddisk.</p>
-
-        <ul class="check-list">
-          <li><strong>Mer minne (RAM)</strong> — maskinen takler flere programmer samtidig.</li>
-          <li><strong>SSD i stedet for harddisk</strong> — størst hopp i ytelse for pengene.</li>
-          <li><strong>Mer plass</strong> — full disk gjør alt tregt.</li>
-        </ul>
-
+        <p>To ting gjør mest: mer minne, og SSD i stedet for gammel harddisk. Full disk gjør også at alt går tregt.</p>
         <div class="upgrade-photos">
-          <img src="/img/ram.jpg" alt="RAM-minnebrikke til PC-oppgradering" width="300" height="200" loading="lazy">
+          <img src="/img/ram.jpg" alt="Minnebrikke til PC-oppgradering" width="300" height="200" loading="lazy">
           <img src="/img/ssd.jpg" alt="SSD-disk for raskere PC" width="300" height="200" loading="lazy">
         </div>
-
-        <p>Kapasitet og pris på SSD og minne avhenger av maskinen. Deler kommer i tillegg til kostpris. Ring <a class="u" href="tel:+4741221200">41 22 12 00</a> så ser vi hva som passer.</p>
+        <p>Hva som passer, og hva delene koster, avhenger av maskinen. Ring <a class="u" href="tel:+4741221200">41 22 12 00</a>. Deler kommer i tillegg til arbeid.</p>
       </article>
     </div>
 
