@@ -27,7 +27,10 @@ require_once __DIR__ . '/shared/head.php';
           <p class="meta">Fastpris 1 500 kr · innlevering etter avtale · ferdig på 2–4 dager</p>
         </div>
         <div class="hero-img">
-          <img src="/img/stov_pc.jpg" width="900" height="600" alt="Støv inne i en PC som skal renses på verkstedet">
+          <picture>
+            <source srcset="/img/hero.webp?v=20261012h" type="image/webp">
+            <img src="/img/hero.jpg?v=20261012h" width="1200" height="675" alt="Bjørn Kristiansen i Borgen Data reparerer en bærbar PC" fetchpriority="high">
+          </picture>
         </div>
       </div>
     </section>

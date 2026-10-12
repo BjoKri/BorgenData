@@ -214,7 +214,9 @@ h1 {
 }
 
 .hero img {
-  aspect-ratio: 4 / 5;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-position: center 30%;
 }
 
 .stats {
@@ -473,7 +475,7 @@ h3 {
 }
 
 .hero img {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
 }
 
 .konsoll-grid img {
