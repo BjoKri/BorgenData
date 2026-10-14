@@ -1129,6 +1129,18 @@ body.nav-lock {
   padding: 1.5rem;
 }
 
+.price-card-featured {
+  border-color: var(--iceblue);
+  background: color-mix(in oklch, var(--frost) 70%, transparent);
+}
+
+.price-copy {
+  margin-top: 0.75rem;
+  font-size: 0.9375rem;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+
 .price-card h2 {
   font-size: 1.25rem;
 }

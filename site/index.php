@@ -4,7 +4,7 @@
 <?php
 require_once __DIR__ . '/shared/config.php';
 $pageTitle = 'PC-reparasjon i Sarpsborg | Borgen Data';
-$pageDescription = 'Borgen Data renser, reparerer og oppgraderer PC-er og spillkonsoller. Verksted i Parkveien 10. Ring før du kommer. Fastpris 1 500 kr.';
+$pageDescription = 'Borgen Data renser, reparerer og oppgraderer PC-er og spillkonsoller. Verksted i Parkveien 10. Ring før du kommer. Reparasjon 1 500 kr, enkel hjelp 500 kr.';
 $canonical = 'https://borgendata.no/';
 $pageId = 'hjem';
 require_once __DIR__ . '/shared/head.php';
@@ -24,7 +24,7 @@ require_once __DIR__ . '/shared/head.php';
             <a class="btn-blue" href="tel:+4741221200">Ring 41 22 12 00</a>
             <a class="btn-ghost" href="tel:+4741221200">Ring før du kommer</a>
           </div>
-          <p class="meta">Fastpris 1 500 kr · innlevering etter avtale · ferdig på 2–4 dager</p>
+          <p class="meta">Reparasjon 1 500 kr · innlevering etter avtale · ferdig på 2–4 dager</p>
         </div>
         <div class="hero-img">
           <picture>
@@ -36,9 +36,7 @@ require_once __DIR__ . '/shared/head.php';
     </section>
 
     <section class="wrap">
-      <div class="price-callout">
-        <p><?= FASTPRIS_TEKST ?></p>
-      </div>
+<?php require_once __DIR__ . '/shared/priser.php'; ?>
       <p class="hours-note"><?= TIMER_TEKST ?></p>
     </section>
 
@@ -46,7 +44,7 @@ require_once __DIR__ . '/shared/head.php';
       <div class="stats">
         <div>
           <p>1 500</p>
-          <p>fastpris, vanlig rens og reparasjon</p>
+          <p>kr, vanlig reparasjon</p>
         </div>
         <div>
           <p>2–4</p>
@@ -148,7 +146,7 @@ require_once __DIR__ . '/shared/head.php';
         </details>
         <details>
           <summary><span>Hva koster det?</span><span class="plus">+</span></summary>
-          <p><?= FASTPRIS_TEKST ?> Ring <a class="u" href="tel:+4741221200">41 22 12 00</a>.</p>
+          <p><?= FASTPRIS_TEKST ?></p>
         </details>
         <details>
           <summary><span>Hvor lang tid tar det?</span><span class="plus">+</span></summary>
@@ -191,7 +189,7 @@ require_once __DIR__ . '/shared/head.php';
         </div>
         <div class="card">
           <div>
-            <h3>Fastpris 1 500 kr</h3>
+            <h3>Hva det koster</h3>
             <p><?= FASTPRIS_TEKST ?></p>
           </div>
           <a class="btn-blue" href="/kontakt">Kontaktside</a>
@@ -214,7 +212,7 @@ require_once __DIR__ . '/shared/head.php';
         "image": "https://borgendata.no/img/stov_pc.jpg",
         "telephone": "+4741221200",
         "email": "bk@borgendata.no",
-        "priceRange": "1500 NOK",
+        "priceRange": "500-1500 NOK",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Parkveien 10",
@@ -250,10 +248,11 @@ require_once __DIR__ . '/shared/head.php';
           }
         },
         "offers": {
-          "@type": "Offer",
-          "price": "1500",
+          "@type": "AggregateOffer",
+          "lowPrice": "500",
+          "highPrice": "1500",
           "priceCurrency": "NOK",
-          "description": "Fastpris vanlig rens og reparasjon"
+          "description": "Enkel hjelp 500 kr, reparasjon 1 500 kr fast, forsikringsrapport 990 kr"
         }
       },
       {

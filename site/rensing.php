@@ -30,7 +30,7 @@ require_once __DIR__ . '/shared/head.php';
           <img src="/img/stov_pc.jpg" alt="Støv inne i en PC som bør renses" width="500" height="333" loading="lazy">
           <figcaption>Vi åpner, renser og setter sammen igjen.</figcaption>
         </figure>
-        <p>Fastpris 1 500 kr når det er vanlig rens, uten nye deler.</p>
+        <p>Vanlig rens koster 1 500 kr, samme pris som reparasjon. Små ting som tar under en halvtime koster 500 kr.</p>
       </article>
     </div>
 

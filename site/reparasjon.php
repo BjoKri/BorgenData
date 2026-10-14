@@ -4,7 +4,7 @@
 <?php
 require_once __DIR__ . '/shared/config.php';
 $pageTitle = 'PC-reparasjon i Sarpsborg | Borgen Data';
-$pageDescription = 'Vi feilsøker og reparerer PC i Sarpsborg. Vanlig tid 2–4 dager. Fastpris 1 500 kr uten nye deler. Ring 41 22 12 00.';
+$pageDescription = 'Vi feilsøker og reparerer PC i Sarpsborg. Vanlig tid 2–4 dager. Reparasjon 1 500 kr fast. Enkel hjelp 500 kr. Ring 41 22 12 00.';
 $canonical = 'https://borgendata.no/reparasjon';
 $pageId = 'reparasjon';
 require_once __DIR__ . '/shared/head.php';
@@ -25,8 +25,9 @@ require_once __DIR__ . '/shared/head.php';
       <article class="prose-block">
         <p>Vi feilsøker og reparerer. Vanlige jobber: maskinen starter ikke, Windows stopper, rare lyder, ikke internett, skriver eller skjerm som ikke virker, trådløst nett som faller ut.</p>
         <p>Har PC-en blitt treg etter å ha vært rask? Se <a class="u" href="/rensing">Rensing</a>. Har den alltid vært treg? Se <a class="u" href="/oppgradering">Oppgradering</a>.</p>
-        <p>Vanlig tid 2–4 dager. Fastpris 1 500 kr når vi fikser uten nye deler, se pris på <a class="u" href="/">forsiden</a>.</p>
+        <p>Vanlig tid 2–4 dager.</p>
       </article>
+<?php require_once __DIR__ . '/shared/priser.php'; ?>
     </div>
 
     <section class="cta-band wrap">

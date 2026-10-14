@@ -24,7 +24,7 @@ require_once __DIR__ . '/shared/head.php';
     <div class="wrap page-body">
       <article class="prose-block">
         <p>Borgen Data har reparert PC-er i Sarpsborg siden 2008. Innehaver er dataingeniør Bjørn Kristiansen. Arbeidet gjøres i Parkveien 10, som oftest kveld og helg.</p>
-        <p>Uten dyrt lokale holder vi prisen nede. Fastpris 1 500 kr på vanlig rens og reparasjon.</p>
+        <p>Uten dyrt lokale holder vi prisen nede. Reparasjon koster 1 500 kr fast. Enkel hjelp koster 500 kr.</p>
         <p>Hjemmebesøk kan avtales ved små problemer i Hafslund, Borgenhaugen, Sandbakken, Klavestadhaugen, Bede og Hafslundsøy.</p>
       </article>
 
